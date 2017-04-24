@@ -100,8 +100,11 @@ Scenario 1: Tagging collections of elements
 Many CMS-backed sites will often have links elements with dynamic ID values. In this example below, Tealium can use the 't-track-article' class the hook for all the elements in the collection
 
 Example:
+
+```html
 <a class="t-track-article" id="article_setting-a-goal">Setting a Goal</a>
 <a class="t-track-article" id="article_saving-for-college">Saving For College</a>
 <a class="t-track-article" id="article_buying-a-car">Buying A Car</a>
+```
 
 
