@@ -5,7 +5,7 @@ A TMS is designed to help manage the lifecycle of multiple analytics products th
 
 http://imgur.com/a/MuYeH
 
-![alt text](http://imgur.com/a/MuYeH)
+![alt text](https://cloud.githubusercontent.com/assets/8395866/25362753/3259b274-2913-11e7-926d-6cd9245e6b9f.png)
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/MuYeH"><a href="//imgur.com/MuYeH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
