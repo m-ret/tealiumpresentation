@@ -7,6 +7,8 @@ http://imgur.com/a/MuYeH
 
 ![alt text](http://imgur.com/a/MuYeH)
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/MuYeH"><a href="//imgur.com/MuYeH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 
 ## Tealium Workflow for Landing Pages
 Below are the high-level touchpoints for a typical Tealium implementation. 
