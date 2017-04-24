@@ -132,4 +132,3 @@ Example
 - These classes need to be unique to the element
 - The element ID attribute value must contain information for the element that is useful to business partners.
 - Tealium will fire “onblur” and will concatenate the id of the element with the value such as firstName_SamBlair
-
