@@ -96,7 +96,9 @@ Specific classes for no-click elements (every element which is not an anchor <a>
 *At the outset of the project, teams should review the tagging workbook with DCOM to determine if a class-based approach is warranted for specific elements in the workbook.*
 
 By default, most Tealium tagging is handled through element ID assignment. However, there are a couple scenarios where using a class-based approach is more appropriate. 
-Scenario 1: Tagging collections of elements
+
+### Scenario 1: Tagging collections of elements
+
 Many CMS-backed sites will often have links elements with dynamic ID values. In this example below, Tealium can use the 't-track-article' class the hook for all the elements in the collection
 
 Example:
@@ -107,4 +109,22 @@ Example:
 <a class="t-track-article" id="article_buying-a-car">Buying A Car</a>
 ```
 
+### Considerations:
+- Class names are added to the workbook by the developer during the workbook preparation phase
+- Classes should use a tealium-specific naming convention. example: t-track-article
+
+### Scenario 2: Tagging form elements
+Any element with a dynamic value, such as form elements, need to use the class-based approach
+
+Example
+```html
+<input type="text" class="t-track-firstName" id="firstName" value="" />
+```
+
+### Considerations
+- Class names are added to the workbook by the developer during the workbook preparation phase
+- Classes should use a tealium-specific naming convention. example: t-track-article
+- These classes need to be unique to the element
+- The element ID attribute value must contain information for the element that is useful to business partners.
+- Tealium will fire “onblur” and will concatenate the id of the element with the value such as firstName_SamBlair
 
