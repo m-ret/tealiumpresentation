@@ -3,6 +3,11 @@ Tag Management System
 
 A TMS is designed to help manage the lifecycle of multiple analytics products through a centralized dashboard. As illustrated in the picture below, Tealium acts as the middle man between a web page and the various analytics services that we send data to. 
 
+http://imgur.com/a/MuYeH
+
+![alt text](http://imgur.com/a/MuYeH)
+
+
 ## Tealium Workflow for Landing Pages
 Below are the high-level touchpoints for a typical Tealium implementation. 
 
