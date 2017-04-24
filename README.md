@@ -1,10 +1,6 @@
 # Tealium Presentation
 Tag Management System
 
-Special Cases:
-Specific classes for no-click elements (every element which is not an anchor <a>)
-
-
 A TMS is designed to help manage the lifecycle of multiple analytics products through a centralized dashboard. As illustrated in the picture below, Tealium acts as the middle man between a web page and the various analytics services that we send data to. 
 
 ## Tealium Workflow for Landing Pages
@@ -93,3 +89,19 @@ A peer implementation review is required for anyone new to Tealium
 - All dart/doubleclick floodlight tags are removed from Javascript and HTML
 - Dart or dartclick classes are removed from the HTML 
 - Remove all code we don't need
+
+# Special Cases:
+Specific classes for no-click elements (every element which is not an anchor <a>)
+
+*At the outset of the project, teams should review the tagging workbook with DCOM to determine if a class-based approach is warranted for specific elements in the workbook.*
+
+By default, most Tealium tagging is handled through element ID assignment. However, there are a couple scenarios where using a class-based approach is more appropriate. 
+Scenario 1: Tagging collections of elements
+Many CMS-backed sites will often have links elements with dynamic ID values. In this example below, Tealium can use the 't-track-article' class the hook for all the elements in the collection
+
+Example:
+<a class="t-track-article" id="article_setting-a-goal">Setting a Goal</a>
+<a class="t-track-article" id="article_saving-for-college">Saving For College</a>
+<a class="t-track-article" id="article_buying-a-car">Buying A Car</a>
+
+
