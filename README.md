@@ -86,5 +86,3 @@ all data-dart-cat and data-aam-keyval attributes are removed from the HTML
 All dart/doubleclick floodlight tags are removed from Javascript and HTML
 dart or dartclick classes are removed from the HTML 
 Remove all code we don't need
-
-
