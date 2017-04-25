@@ -21,8 +21,8 @@ Below are the high-level touchpoints for a typical Tealium implementation.
 - PM reviews experience (preliminary visuals) and accompanying tagging requirements with internal team
 - PM presents experience and tagging requirements to DCOM. 
 - DCOM provides feedback on the tagging strategy and provides feedback.
-- After all parties have aligned on the workbook, TECH makes code updates per WB
-- DCOM imports WB into Tealium.
+- After all parties have aligned on the workbook, TECH makes code updates per WB 
+- DCOM imports WB into Tealium (Dart Tags won't trigger until this happens).
 - QA validates tag firing on QA server, raises defects.
 - PM coordinates defect triage and assignment
 - Repeat steps 4-6 until all defects are resolved.
@@ -46,7 +46,7 @@ https://gitlab.digitas.com/flag/core-tealium/wikis/home
 ## Workbook Preparation
 
 A well-prepared workbook is the foundation for a successful Tealium implementation. As a developer, you will play an active roll in helping to get the workbook 'ready for development'. Here are a few things to consider:
-- Workbook should match the template found here
+- Workbook should match the template found (here)[https://lion.app.box.com/s/4eci11bctnjuko9hib1c87acrwdq61np]
 - Is the workbook complete? Is anything missing or wrong?
 - Are there any tracking requirements that are not supported by Tealium?
 - IDs are valid format (alphanumeric, hyphen and underscore are permitted, cannot start with a number, no spaces, case sensite)
